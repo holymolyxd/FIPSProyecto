@@ -1,0 +1,417 @@
+color1 = rgb(208, 0, 0)
+color2 = #fdd700
+
+body
+    background-color #f9f9f9
+    font-size 14px
+    //font-family 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif;
+
+a
+.btn
+    box-shadow none
+    outline none
+
+.mtop32
+    margin-top 32px
+.mtop16
+    margin-top 16px
+.pleft0
+    padding-left 0 !important
+
+.form-control
+    &:hover
+    &:focus
+        box-shadow none
+
+nav
+    background-color #fff
+    border-bottom 2px solid color1
+    .navbar-brand
+        img
+            width 300px
+    .navbar-toggler
+        color color1
+        &:active
+        &:focus
+            box-shadow none
+            outline none
+    .navbar-nav
+        li.nav-item
+            a.nav-link
+                border solid 1px #fff
+                border-radius 4px
+                color #000
+                font-size .9em
+                font-weight bold
+                margin-right 4px
+                padding 5px 16px !important
+                &:hover
+                    color color1 !important
+            a.btn
+                border 1px solid color1
+                color #000
+            ul.dropdown-menu
+                border-radius 0px 0px 4px 4px
+                background-color #FFFFFF
+                border 0px solid color1
+                top 146% !important
+                li
+                    border-bottom 1px solid #FFFFFF
+                    a
+                        display block
+                        color #000
+                        float none
+                        width 100%
+                        i
+                            color color1
+                        &:last-child
+                            border-bottom 0px
+                        &:hover
+                            background-color #f7f7f7
+
+        li.link-acc
+            overflow hidden
+            a
+                display inline-block
+                float left
+                margin-right:0px !important
+                &:first-child
+                    border-radius 4px 0px 0px 4px
+                &:last-child
+                    border-radius 0px 4px 4px 0px
+                img
+                    position relative
+                    top -1px
+                    margin-right: 6px
+                    width 24px
+        li.link-user
+            overflow initial
+            a
+                border 0px !important
+                &:hover
+                    background-color transparent !important
+.wrapper
+    .panel
+        background-color #ffffff
+        border-radius 6px
+        border-bottom: 2px solid rgb(208, 0, 0)
+        .header
+            border-bottom: 1px solid #e8e8e8
+            h2.title
+                display inline-block
+                color #19213d
+                font-size 1.1em
+                margin-bottom 0px
+                padding 12px 16px
+            ul
+                display inline-block
+                float right
+                margin-right 12px
+                li
+                    display inline-block
+                    position relative
+                    a
+                        color #333
+                        display inline-block
+                        padding 10px
+                        font-size 1em
+                        &:hover
+                            background-color #f6f6f6
+                            color #222
+                            text-decoration none
+                        i
+                            color rgb(208, 0, 0)
+                    ul
+                        background-color #FFFFFF
+                        border 1px solid #f0f0f0
+                        display none
+                        float none
+                        position absolute
+                        right -16px
+                        width 200px
+                        li
+                            display inline-block
+                            border-bottom 1px solid #f0f0f0
+                            width 100%
+                            &:last-child
+                                border-bottom 0px
+                            a
+                                display block
+                                width 100%
+                    &:hover
+                        ul
+                            display block
+        .inside
+            padding 16px
+            .form_search
+                display none
+                margin-bottom 16px
+            .btn-success
+                background-color color1
+                padding 8px 24px
+                border none
+                &:hover
+                    background-color color2
+                    color #000000
+.home_action_bar
+    background-color #FFFFFF
+    border 1px solid #d6d6d6
+    border-radius 4px;
+    margin-top 32px
+    padding 8px
+    .input-group
+        position relative
+        i
+            position absolute
+            font-size 1.4em
+            left 12px
+            top 10px
+            z-index 10
+        .form-control
+            border-radius 4px 0px 0px 4px
+            padding 10px 16px
+            padding-left 46px
+            z-index 2
+            &:focus
+                border 1px solid color1
+        &:focus-within
+            i
+                color color1
+            .btn
+                background-color color1
+        .btn
+            background-color black
+            color #FFFFFF
+            &:hover
+                background-color color1
+.posts_lists
+    .card-header {
+        display: flex;
+        align-items: center;
+        border-bottom-width: 1px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: .625rem;
+        height: 3.5rem;
+        background-color: #fff;
+        border-bottom: 1px solid rgba(26, 54, 126, 0.125)
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #3f6ad8;
+        border-color: #3f6ad8
+    }
+
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1.25rem
+    }
+
+    a {
+        color: color1;
+        text-decoration: none !important;
+        background-color: transparent
+    }
+
+    .media img {
+        width: 40px;
+        height: auto
+    }
+
+.load_more_posts
+    margin-bottom 24px
+    a
+        display block
+        position relative
+        width 40%
+        margin-left 30%
+        padding 8px
+        border-radius 4px
+        border 1px solid #d6d6d6
+        text-align center
+        color black
+        text-decoration none
+        text-transform uppercase
+        &:hover
+            background-color color1
+            color white
+
+.post_single
+    background-color #FFFFFF
+    border 4px
+    margin-top 32px
+    padding 12px
+    border-bottom 1px solid color1
+    border-radius 5px
+    .category
+        ul
+            list-style none
+            margin 0px
+            overflow hidden
+            padding 0px
+            li
+                display inline-flex
+                margin 0px 6px
+                float left
+                .next
+                    display block
+                    color #666
+                    font-size .6em
+                    position relative
+                    margin-top 5px
+                a
+                    color #333
+                    display inline-block
+                    font-size .9em !important
+                    text-decoration none
+                    i
+                        color color1
+                    &:hover
+                        text-decoration underline
+                &:first-child
+                    margin-left 0px
+
+    h2.title
+        font-size 2em
+        font-weight 500
+        margin-bottom 6px
+    .inside
+        padding 16px
+        margin-left 0px
+    .content
+        margin-top 24px
+        padding-top 24px
+        border-top 1px solid #f0f0f0
+
+.answers_posts
+    background-color #FFFFFF
+    border 4px
+    padding 25px
+    border-bottom 1px solid color1
+    border-radius 5px
+
+@media only screen and (max-width 728px)
+    nav
+        .navbar-nav
+            display block !important
+            margin-top 16px
+            overflow hidden
+            li.nav-item
+                float left
+                display block
+                margin-right 0px
+                width 50%
+                a.nav-link
+                    text-align center
+                    span
+                        display block
+                        width 100%
+                        font-weight normal
+                        margin-top: 4px
+                        font-size 2.3em
+                    i
+                        font-size 3em
+                &:last-child
+                    float none
+                    width 100%
+            li.link-acc
+                a
+                    font-size 1.2em
+                    width 50% !important
+                    i
+                        font-size 1em !important
+            li.link-user
+                border 1px solid #f2f2f2
+                border-radius 6px
+                padding 8px
+                a
+                    display: block
+                    font-size 1.2em
+                    width 100% !important
+                    margin-bottom: 12px
+                    img
+                        width 36px
+                ul.dropdown-menu
+                    top 0px
+                    hr.dropdown-divider
+                        display none
+                ul.shadow
+                    box-shadow none !important
+.home_action_bar
+    form
+        margin-top 16px
+.posts_lists
+    .posts
+        margin-right 1%
+        width 100%
+.post_single
+    .pleft0
+        padding-left 12px !important
+    h2.title
+        margin-bottom 8px
+    .category
+        background-color #f8f8f8
+        padding 4px
+
+.card {
+    border: none;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    border-radius: 4px
+}
+
+.dots {
+    height: 4px;
+    width: 4px;
+    margin-bottom: 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.badge {
+    padding: 7px;
+    padding-right: 9px;
+    padding-left: 16px;
+    box-shadow: 5px 6px 6px 2px #e9ecef
+}
+
+.user-img {
+    margin-top: 4px
+}
+
+.check-icon {
+    font-size: 17px;
+    color: #c3bfbf;
+    top: 1px;
+    position: relative;
+    margin-left: 3px
+}
+
+.form-check-input {
+    margin-top: 6px;
+    margin-left: -24px !important;
+    cursor: pointer
+}
+
+.form-check-input:focus {
+    box-shadow: none
+}
+
+.icons i {
+    margin-left: 8px
+}
+
+.reply {
+    margin-left: 12px
+}
+
+.reply small {
+    color: #b7b4b4
+}
+
+.reply small:hover {
+    color: green;
+    cursor: pointer
+}
